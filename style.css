@@ -1,0 +1,120 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+html{
+     font-family: Oswald,sans-serif;
+       background: rgb(85, 188, 248);
+       background-repeat: no-repeat;
+       background-size: cover;
+       height: 100vh;
+       font-size: 40px;
+       width: 100%;
+       color:rgb(6, 6, 190);
+ 
+}
+header{
+      background-image: url(./calender_banner.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      justify-content: flex-start;
+      height: 40vh;
+      width: 100%;
+      border-bottom-left-radius:5px ;
+      border-bottom-right-radius:5px ;
+      box-shadow: 3px 3px 10px rgb(66, 126, 175);
+}
+header h1{
+   font-size: 100px;
+   color: rgb(221, 214, 253);
+   align-self:flex-end;
+   width: 100%;
+   margin-top: -5%;
+   background-color: rgba(0, 255, 255, 0.527);
+
+}
+i{
+   font-size: 30px;
+}
+header span{
+          display: block;
+          align-self: flex-start;
+          text-align: right;
+          padding-right:10px ;
+          padding-top: 10px;
+          width: 100%;
+          font-size: 130px;
+          color:rgb(202, 190, 253)
+       }
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 10%;
+    box-sizing: border-box;
+    width: 100%;
+}
+li{
+   padding: 10px;
+   width:20% ;
+   text-align: center;
+   border: 0.3px solid #0350f5;
+   border-top: none;
+   border-right: none;
+   border-radius: 5px;
+}
+li:last-child{
+   border-right: 0.3px solid #0350f5;
+}
+
+/* for small mobile devices */
+@media screen and (max-width:400px) {
+        html{
+             font-size: 25px;
+        }
+
+       header h1{
+        font-size: 45px;
+        color:rgb(197, 176, 253);
+       }
+       ul{
+            margin-top: 20%;
+       }  
+       li{
+           font-size: 16px;
+       } 
+       i{
+         font-size: 16px;
+         margin-left: -3%;
+       } 
+        header span{
+                      font-size: 40px;
+                        }                        
+       
+
+}
+/*  for tablet and extra large devices */
+@media screen and (min-width:450px) and (max-width:800px){
+                          html{
+                               font-size: 30px;
+                          }
+                          header h1{
+                           font-size: 70px;
+                          }
+                            i{
+         font-size: 25px;
+         margin-left: -3%;
+       }
+                        header span{
+                                   font-size: 50px;
+                        }                        
+       
+} 
