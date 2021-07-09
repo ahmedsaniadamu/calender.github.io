@@ -8,7 +8,7 @@
       let dateProperties = {
                              "month": date.getMonth() ,
                               "year": date.getFullYear(),
-                              "date": date.getDate(),
+                              "date": date.getDate() ,
                               "todays background":"rgb(161, 245, 245)",
                                "reset background" : "transparent",
                                "months in a year": ['January','Febuary','March','April',
